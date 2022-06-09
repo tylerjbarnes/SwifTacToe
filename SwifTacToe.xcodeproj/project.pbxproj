@@ -11,6 +11,8 @@
 		6005007A285277B3006E012B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050079285277B3006E012B /* ContentView.swift */; };
 		6005007C285277B4006E012B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6005007B285277B4006E012B /* Assets.xcassets */; };
 		6005007F285277B4006E012B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6005007E285277B4006E012B /* Preview Assets.xcassets */; };
+		60050087285277D6006E012B /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050086285277D6006E012B /* TileView.swift */; };
+		60050089285277F8006E012B /* TileState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60050088285277F8006E012B /* TileState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6005007B285277B4006E012B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6005007E285277B4006E012B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60050080285277B4006E012B /* SwifTacToe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwifTacToe.entitlements; sourceTree = "<group>"; };
+		60050086285277D6006E012B /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		60050088285277F8006E012B /* TileState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				60050077285277B3006E012B /* SwifTacToeApp.swift */,
+				60050086285277D6006E012B /* TileView.swift */,
 				60050079285277B3006E012B /* ContentView.swift */,
 				6005007B285277B4006E012B /* Assets.xcassets */,
 				60050080285277B4006E012B /* SwifTacToe.entitlements */,
 				6005007D285277B4006E012B /* Preview Content */,
+				60050088285277F8006E012B /* TileState.swift */,
 			);
 			path = SwifTacToe;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6005007A285277B3006E012B /* ContentView.swift in Sources */,
+				60050089285277F8006E012B /* TileState.swift in Sources */,
+				60050087285277D6006E012B /* TileView.swift in Sources */,
 				60050078285277B3006E012B /* SwifTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
